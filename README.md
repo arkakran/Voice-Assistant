@@ -66,7 +66,7 @@ whisper @ git+https://github.com/openai/whisper.git
 
 ### 1. Clone the Repository
 ```bash
-git clone <your_repo_url>
+git clone https://github.com/arkakran/Voice-Assistant.git
 cd voice_assistant
 ```
 
