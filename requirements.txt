@@ -1,0 +1,7 @@
+numpy
+sounddevice
+soundfile
+torch
+transformers
+pyttsx3
+whisper

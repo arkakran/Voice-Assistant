@@ -1,0 +1,27 @@
+audio:
+  sample_rate: 16000
+  chunk_size: 1024
+  channels: 1
+  record_seconds: 5
+  silence_threshold: 500
+
+asr:
+  model: "tiny"  # Whisper tiny
+  device: "cpu"
+
+llm:
+  model: "google/mt5-small"
+  max_length: 50
+
+tts:
+  engine: "pyttsx3"
+  rate: 150
+  voice: "default"
+
+hardware:
+  simulate_only: true
+  led_pin: 18
+  servo_pin: 12
+
+system:
+  exit_words: ["exit", "quit", "goodbye"]
