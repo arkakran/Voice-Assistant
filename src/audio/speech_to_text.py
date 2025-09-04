@@ -13,7 +13,7 @@ class SpeechToText:
         """
         Record audio from microphone and transcribe using Whisper
         """
-        print("🎙️ Recording...")
+        print(" Recording...")
         audio = sd.rec(int(duration * fs), samplerate=fs, channels=1)
         sd.wait()
         audio = np.squeeze(audio)
@@ -28,3 +28,4 @@ class SpeechToText:
             self.logger.log_speech(text)
 
         return text
+
